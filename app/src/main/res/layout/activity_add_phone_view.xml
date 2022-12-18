@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".phoneView.AddPhoneView">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_height="@dimen/_60sdp">
+
+        <TextView
+            android:id="@+id/samsung"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/_30ssp"
+            android:text="Samsung"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_height="@dimen/_60sdp">
+        <TextView
+            android:id="@+id/iphone"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/_30ssp"
+            android:text="iPhone"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_height="@dimen/_60sdp">
+
+        <TextView
+            android:id="@+id/redmi"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/_30ssp"
+            android:text="redMi"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
